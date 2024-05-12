@@ -1,0 +1,74 @@
+.ipone{
+     text-align: center;
+     background-color: rgb(24 21 22 / 57%);
+     margin-left: 35%;
+     margin-right: 35%;
+     border-radius: 10px;
+     padding: 30px;
+ }
+
+
+input{
+    height: 37px;
+    width: 230px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+button {
+    background-color: #8f937d;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .dflex{
+    display: flex;
+    justify-content: space-around;
+  }
+  h4{
+    color: #fff;
+  }
+  h2{
+    color: #fff;
+  }
+
+  @media screen and (min-width: 380px) {
+    .ipone {
+      text-align: center;
+      background-color: rgb(24 21 22 / 57%);
+      margin-left: -2%;
+      margin-right: -5%;
+      border-radius: 10px;
+      padding: 30px;
+    }
+  }
+
+  @media screen and (min-width: 360px) {
+    .ipone {
+        text-align: center;
+        background-color: rgb(24 21 22 / 57%);
+        margin-left: -2%;
+        margin-right: -5%;
+        border-radius: 10px;
+        padding: 30px;
+      }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .ipone{
+        text-align: center;
+        background-color: rgb(24 21 22 / 57%);
+        margin-left: 35%;
+        margin-right: 35%;
+        border-radius: 10px;
+        padding: 30px;
+    }
+  }
+  
